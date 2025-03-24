@@ -1,4 +1,4 @@
-# File: ClassTest/PartA.py
+
 
 from datetime import date
 
@@ -68,17 +68,17 @@ class FullTimeStaff(Staff):
             print("Invalid type for department")
 
 
-# A8: Instances
+#Instances
 staff1 = Staff("Adeife Thomas", "09-12-2003", "Male", 4702, "123 Blanchardstown")
 full_staff1 = FullTimeStaff("Chris Rock", "21-06-2003", "Male", 4703, "78 Castlecurragh Park, Blanchardstown", 55000.00, "IT")
 
-# A9: Print attributes
+#Print attributes
 print("Staff1 attributes:")
 staff1.print_attributes()
 print("\nFullTimeStaff attributes:")
 full_staff1.print_all_attributes()
 
-# A10: Update examples
+# Update examples
 print("\nUpdating Staff1's name and address...")
 staff1.update_name("Adeife Thomas")
 staff1.update_address( "123 Blanchardstown")

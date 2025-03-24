@@ -9,7 +9,7 @@ class TestStaffClasses(unittest.TestCase):
         self.staff = Staff("Adeife Thomas", "09-12-2003", "Male", 4702, "123 Blanchardstown")
         self.full_staff = FullTimeStaff("Chris Rock", "21-06-2003", "Male", 4703, "78 Castlecurragh Park, Blanchardstown", 55000.00, "IT")
 
-    # B2: Test if object is instance of class
+    #To Test if object is instance of class
     def test_instance_of_staff(self):
         self.assertIsInstance(self.staff, Staff)
         self.assertIsInstance(self.full_staff, FullTimeStaff)
